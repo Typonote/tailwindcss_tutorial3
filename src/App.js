@@ -1,5 +1,6 @@
 import React from 'react' 
 import ChooseItems from './components/ChooseItems';
+import ForBusiness from './components/ForBusiness';
 import GamePass from './components/GamePass';
 import Header from './components/Header';
 import Hero from './components/Hero';
@@ -13,6 +14,7 @@ function App() {
     <ChooseItems />
     <ItemsWithImage />
     <GamePass />
+    <ForBusiness />
     </>
   );
 }
