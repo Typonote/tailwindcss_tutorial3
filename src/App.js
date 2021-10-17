@@ -1,4 +1,5 @@
 import React from 'react' 
+import ChooseItems from './components/ChooseItems';
 import Header from './components/Header';
 import Hero from './components/Hero';
 
@@ -7,6 +8,7 @@ function App() {
     <>
     <Header />
     <Hero/>
+    <ChooseItems />
     </>
   );
 }
