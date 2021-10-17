@@ -1,5 +1,6 @@
 import React from 'react' 
 import ChooseItems from './components/ChooseItems';
+import Footer from './components/Footer';
 import ForBusiness from './components/ForBusiness';
 import GamePass from './components/GamePass';
 import Header from './components/Header';
@@ -21,6 +22,7 @@ function App() {
     <MSresponse />
     <ThisHoliday />
     <Social />
+    <Footer />
     </>
   );
 }

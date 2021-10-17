@@ -1,4 +1,4 @@
-export const footer = [
+const footer = [
     {
       id: 1,
       title: "What's new",
@@ -81,3 +81,4 @@ export const footer = [
     },
   ]
   
+  export default footer;
