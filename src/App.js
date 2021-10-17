@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import ItemsWithImage from './components/ItemsWithImage';
 import MSresponse from './components/MSresponse';
+import ThisHoliday from './components/ThisHoliday';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <GamePass />
     <ForBusiness />
     <MSresponse />
+    <ThisHoliday />
     </>
   );
 }
