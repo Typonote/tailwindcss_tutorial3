@@ -6,8 +6,7 @@ const ForBusiness = () => {
 
     
     return (
-        <section className='section-2'>
-            <h2 className="font-semibold text-2xl mt-5 px-8">For business</h2>
+        <section className="section-2 md:grid grid-cols-2 xl:grid-cols-4 xl:mx-20">
             {cards.map((card) => {
                 const {id, image, title, desc, link} = card
 

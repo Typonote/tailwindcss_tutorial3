@@ -6,7 +6,7 @@ const ChooseItems = () => {
     const [cards, setCards] =useState(data);
 
     return (
-        <section>
+        <section className="md:grid grid-cols-2 xl:grid-cols-6 my-8 xl:mx-20">
             {cards.map((card)=>{
                 const {id, text, image} = card
                 return (
