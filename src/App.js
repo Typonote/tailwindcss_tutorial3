@@ -6,6 +6,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import ItemsWithImage from './components/ItemsWithImage';
 import MSresponse from './components/MSresponse';
+import Social from './components/Social';
 import ThisHoliday from './components/ThisHoliday';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
     <ForBusiness />
     <MSresponse />
     <ThisHoliday />
+    <Social />
     </>
   );
 }
