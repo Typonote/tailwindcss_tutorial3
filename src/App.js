@@ -5,6 +5,7 @@ import GamePass from './components/GamePass';
 import Header from './components/Header';
 import Hero from './components/Hero';
 import ItemsWithImage from './components/ItemsWithImage';
+import MSresponse from './components/MSresponse';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
     <ItemsWithImage />
     <GamePass />
     <ForBusiness />
+    <MSresponse />
     </>
   );
 }
